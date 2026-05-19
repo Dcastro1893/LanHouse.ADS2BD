@@ -54,3 +54,13 @@ INSERT INTO produtos (nome, categoria, preco, estoque) VALUES
 ('Auriculares Simples', 'Acessório', 5.00, 5),
 ('Rato Gamer Entrada', 'Acessório', 15.00, 3),
 ('Tapete de Rato', 'Acessório', 8.00, 10);
+
+-- Clientes sem sessão semana 2
+INSERT INTO clientes (nome, cpf, email, telefone) VALUES
+('Marcos Silva', '111.222.333-16', 'marcos@email.com', '910000016'),
+('Juliana Lima', '111.222.333-17', 'juliana@email.com', '910000017');
+
+-- Produtos nunca consumidos semana 2
+INSERT INTO produtos (nome, categoria, preco, estoque) VALUES
+('Produto Teste 1', 'Teste', 50.00, 10),
+('Produto Teste 2', 'Teste', 100.00, 5);
