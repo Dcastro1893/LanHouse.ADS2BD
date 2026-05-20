@@ -64,3 +64,23 @@ INSERT INTO clientes (nome, cpf, email, telefone) VALUES
 INSERT INTO produtos (nome, categoria, preco, estoque) VALUES
 ('Produto Teste 1', 'Teste', 50.00, 10),
 ('Produto Teste 2', 'Teste', 100.00, 5);
+
+-- SESSÕES (dados para Relatório 1 funcionar)
+
+INSERT INTO sessoes (id_cliente, id_computador, status, valor_total) VALUES
+(1, 1, 'encerrada', 50.00),
+(1, 2, 'encerrada', 30.00),
+(2, 3, 'encerrada', 40.00),
+(2, 4, 'encerrada', 25.00),
+(3, 5, 'encerrada', 60.00),
+(3, 6, 'encerrada', 20.00),
+(4, 7, 'encerrada', 15.00),
+(4, 8, 'encerrada', 35.00),
+(5, 9, 'encerrada', 80.00),
+(5, 10, 'encerrada', 10.00),
+(6, 11, 'encerrada', 55.00),
+(6, 12, 'encerrada', 45.00),
+(7, 13, 'encerrada', 70.00),
+(7, 14, 'encerrada', 30.00);
+
+-- Clientes sem sessão (Marcos Silva e Juliana Lima não possuem registros em sessoes)
